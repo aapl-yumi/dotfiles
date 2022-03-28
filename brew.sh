@@ -51,6 +51,8 @@ brew tap bramstein/webfonttools
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng
