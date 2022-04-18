@@ -114,6 +114,7 @@ brew install --cask bitwarden
 brew install bitwarden-cli
 brew install --cask brave-browser
 brew install --cask calibre
+brew install --cask cheatsheet
 brew install --cask chrome-remote-desktop-host
 brew install --cask cmake
 brew install --cask cyberduck
