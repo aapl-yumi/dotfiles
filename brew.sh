@@ -146,6 +146,7 @@ brew install --cask visual-studio-code
 brew install --cask zoom
 brew install --cask zotero
 brew install speedtest-cli
+brew install gnupg
 brew install --cask qlvideo
 brew install --cask qlmarkdown
 brew install --cask --no-quarantine syntax-highlight
