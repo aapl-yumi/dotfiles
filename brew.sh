@@ -123,6 +123,7 @@ brew install --cask fig
 brew install --cask firefox
 brew install --cask geogebra
 brew install --cask github
+brew install --cask gpg-suite
 brew install --cask handbrake
 brew install --cask homebrew/cask-versions/discord-canary
 brew install --cask hyper
