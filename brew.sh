@@ -107,6 +107,7 @@ brew install --cask adobe-acrobat-reader
 brew install --cask alfred
 brew install --cask android-studio
 brew install --cask apparency
+brew install --cask appgrid
 brew install --cask arduino
 brew install --cask balenaetcher
 brew install --cask betterzip
