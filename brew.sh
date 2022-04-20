@@ -137,6 +137,7 @@ brew install --cask mockuuups-studio
 brew install --cask motrix
 brew install --cask nextcloud
 brew install --cask obsidian
+brew install --cask pika
 brew install --cask protonmail-bridge
 brew install --cask pycharm
 brew install --cask rectangle
