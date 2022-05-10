@@ -144,6 +144,7 @@ brew install --cask pika
 brew install --cask protonmail-bridge
 brew install --cask pycharm
 brew install --cask rectangle
+brew install --cask b3z/small/reventlou
 brew install --cask setapp
 brew install --cask silicon
 brew install --cask tor-browser
