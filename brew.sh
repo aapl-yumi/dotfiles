@@ -129,6 +129,7 @@ brew install --cask gpg-suite
 brew install --cask handbrake
 brew install --cask homebrew/cask-versions/discord-canary
 brew install --cask hyper
+brew install --cask logseq
 brew install --cask iina
 brew install --cask imageoptim
 brew install --cask inkscape
@@ -151,6 +152,7 @@ brew install --cask zoom
 brew install --cask zotero
 brew install speedtest-cli
 brew install gnupg
+brew install thefuck
 brew install --cask qlvideo
 brew install --cask qlmarkdown
 brew install --cask --no-quarantine syntax-highlight
