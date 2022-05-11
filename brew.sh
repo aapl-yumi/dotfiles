@@ -137,6 +137,7 @@ brew install --cask intellij-idea
 brew install --cask license-control-center
 brew install --cask mockuuups-studio
 brew install --cask motrix
+brew install neovim
 brew install --cask nextcloud
 brew install --cask obsidian
 brew install --cask onionshare
@@ -145,6 +146,7 @@ brew install --cask protonmail-bridge
 brew install --cask pycharm
 brew install --cask rectangle
 brew install --cask b3z/small/reventlou
+brew install ripgrep
 brew install --cask setapp
 brew install --cask silicon
 brew install --cask tor-browser
