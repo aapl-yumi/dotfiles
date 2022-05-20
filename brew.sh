@@ -130,6 +130,7 @@ brew install --cask handbrake
 brew install --cask homebrew/cask-versions/discord-canary
 brew install --cask hyper
 brew install --cask logseq
+brew install lua
 brew install --cask iina
 brew install --cask imageoptim
 brew install --cask inkscape
