@@ -1,11 +1,11 @@
-# Fig pre block. Keep at the top of this file.
-. "$HOME/.fig/shell/zshrc.pre.zsh"
 eval "$(rbenv init - zsh)"
+
+# Fig pre block. Keep at the top of this file.
+export PATH="${PATH}:${HOME}/.local/bin"
+eval "$(fig init zsh pre)"
 
 PROMPT='%1~ %#'
 setopt no_nomatch
-
-alias "$"=""
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 eval "$(starship init zsh)"
@@ -62,9 +62,7 @@ function o() {
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-
 # Fig post block. Keep at the bottom of this file.
-. "$HOME/.fig/shell/zshrc.post.zsh"
+eval "$(fig init zsh post)"
 
-eval $(thefuck --alias)
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
