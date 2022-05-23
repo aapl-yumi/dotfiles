@@ -53,6 +53,7 @@ brew install sfnt2woff-zopfli
 brew install woff2
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
+brew install --cask font-hack-nerd-font
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng
@@ -101,3 +102,62 @@ brew install zopfli
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# my apps
+brew install --cask adobe-acrobat-reader
+brew install --cask alfred
+brew install --cask android-studio
+brew install --cask apparency
+brew install --cask appgrid
+brew install --cask arduino
+brew install --cask balenaetcher
+brew install --cask betterzip
+brew install --cask bitwarden
+brew install bitwarden-cli
+brew install --cask brave-browser
+brew install --cask calibre
+brew install --cask cheatsheet
+brew install --cask chrome-remote-desktop-host
+brew install --cask cmake
+brew install --cask cyberduck
+brew install --cask docker
+brew install docker
+brew install --cask fig
+brew install --cask firefox
+brew install --cask geogebra
+brew install --cask github
+brew install --cask gpg-suite
+brew install --cask handbrake
+brew install --cask homebrew/cask-versions/discord-canary
+brew install --cask hyper
+brew install --cask logseq
+brew install lua
+brew install --cask iina
+brew install --cask imageoptim
+brew install --cask inkscape
+brew install --cask intellij-idea
+brew install --cask license-control-center
+brew install --cask mockuuups-studio
+brew install --cask motrix
+brew install neovim
+brew install --cask nextcloud
+brew install --cask obsidian
+brew install --cask onionshare
+brew install --cask pika
+brew install --cask protonmail-bridge
+brew install --cask pycharm
+brew install --cask rectangle
+brew install --cask b3z/small/reventlou
+brew install ripgrep
+brew install --cask setapp
+brew install --cask silicon
+brew install --cask tor-browser
+brew install --cask visual-studio-code
+brew install --cask zoom
+brew install --cask zotero
+brew install speedtest-cli
+brew install gnupg
+brew install thefuck
+brew install --cask qlvideo
+brew install --cask qlmarkdown
+brew install --cask --no-quarantine syntax-highlight
