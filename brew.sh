@@ -53,6 +53,7 @@ brew install sfnt2woff-zopfli
 brew install woff2
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
+brew install --cask font-hack-nerd-font
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng
