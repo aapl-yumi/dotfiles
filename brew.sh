@@ -161,3 +161,4 @@ brew install thefuck
 brew install --cask qlvideo
 brew install --cask qlmarkdown
 brew install --cask --no-quarantine syntax-highlight
+brew install yt-dlp/taps/yt-dlp
