@@ -155,6 +155,7 @@ brew install --cask tor-browser
 brew install --cask visual-studio-code
 brew install --cask zoom
 brew install --cask zotero
+brew install --cask signal
 brew install speedtest-cli
 brew install gnupg
 brew install thefuck
