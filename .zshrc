@@ -10,6 +10,10 @@ setopt no_nomatch
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 eval "$(starship init zsh)"
 eval "$(pyenv init -)"
+
+export EDITOR="codium"
+export VISUAL="codium"
+
 function lazygit() {
     git add .
     git commit -a -m "$*"
