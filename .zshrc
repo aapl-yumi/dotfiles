@@ -1,8 +1,6 @@
-eval "$(rbenv init - zsh)"
-
 # Fig pre block. Keep at the top of this file.
-export PATH="${PATH}:${HOME}/.local/bin"
-eval "$(fig init zsh pre)"
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
+eval "$(rbenv init - zsh)"
 
 PROMPT='%1~ %#'
 setopt no_nomatch
@@ -10,10 +8,6 @@ setopt no_nomatch
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 eval "$(starship init zsh)"
 eval "$(pyenv init -)"
-
-export EDITOR="codium"
-export VISUAL="codium"
-
 function lazygit() {
     git add .
     git commit -a -m "$*"
@@ -41,6 +35,9 @@ function fs() {
 	fi;
 }
 
+export EDITOR="nvim"
+export VISUAL="code"
+
 function server() {
 	local port="${1:-8000}";
 	sleep 1 && open "http://localhost:${port}/" &
@@ -66,9 +63,6 @@ function o() {
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Fig post block. Keep at the bottom of this file.
-eval "$(fig init zsh post)"
-
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 # Add `~/bin` to the `$PATH`
@@ -83,10 +77,9 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/Nextcloud/Documents"
 alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias p="cd ~/Nextcloud/Documents/programming"
 alias g="git"
 
 # Detect which `ls` flavor is in use
@@ -222,3 +215,7 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 alias ionicios='ionic capacitor run ios -l --external'
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+export GPG_TTY=$(tty)
