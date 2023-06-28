@@ -21,6 +21,9 @@ function resetLP() {
 function bestytdl() {
     youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 "$1"
 }
+function nd() {
+		mkdir -p -- "$1" && cd -P -- "$1"
+}
 
 function fs() {
 	if du -b /dev/null > /dev/null 2>&1; then
@@ -216,6 +219,15 @@ alias path='echo -e ${PATH//:/\\n}'
 
 alias ionicios='ionic capacitor run ios -l --external'
 
+export GPG_TTY=$(tty)
+
+# pnpm
+export PNPM_HOME="/Users/yumi/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-export GPG_TTY=$(tty)
