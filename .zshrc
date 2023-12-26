@@ -231,3 +231,7 @@ esac
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+eval OPAM_SWITCH_PREFIX='/Users/yumi/.opam/default'; export OPAM_SWITCH_PREFIX;
+CAML_LD_LIBRARY_PATH='/Users/yumi/.opam/default/lib/stublibs:/Users/yumi/.opam/default/lib/ocaml/stublibs:/Users/yumi/.opam/default/lib/ocaml'; export CAML_LD_LIBRARY_PATH;
+OCAML_TOPLEVEL_PATH='/Users/yumi/.opam/default/lib/toplevel'; export OCAML_TOPLEVEL_PATH;
+PATH='/Users/yumi/.opam/default/bin:/Users/yumi/.bun/bin:/Users/yumi/.bun/bin:/Users/yumi/Library/pnpm:/Users/yumi/bin:/opt/homebrew/opt/ruby/bin:/Users/yumi/.pyenv/shims:/Users/yumi/.yarn/bin:/Users/yumi/.config/yarn/global/node_modules/.bin:/Users/yumi/.rbenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/yumi/.cargo/bin:/Users/yumi/.fig/bin:/Users/yumi/.local/bin:/usr/local/bin:/Users/yumi/.fzf/bin'; export PATH;
